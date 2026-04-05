@@ -1,6 +1,8 @@
-# ModSecurity + Traefik Integration
+# ModSecurity + Traefik WAF Integration
 
-This project demonstrates the integration of the ModSecurity Web Application Firewall (WAF) with Traefik using Docker.
+This project demonstrates the deployment and configuration of a Web Application Firewall (WAF) using ModSecurity integrated with Traefik in a containerized environment.
+
+The setup leverages the OWASP Core Rule Set (CRS) to detect and block common web attacks such as Cross-Site Scripting (XSS), SQL Injection, and malformed HTTP requests.
 
 ## 🔐 Key Features
 
